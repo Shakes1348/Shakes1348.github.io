@@ -19,7 +19,7 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>简单的C++语言程序实例</title>
     <url>/2024/09/28/Simple%20C++language%20program%20examples/</url>
     <content><![CDATA[<p>​在介绍C++语言程序的结构之前，我们先来看一个简单的例子：</p>
 <h4 id="例-1-1"><a href="#例-1-1" class="headerlink" title="例 1.1"></a>例 1.1</h4><p>在屏幕上输出 <code>Hello World!</code> 。</p>
