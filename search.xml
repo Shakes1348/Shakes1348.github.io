@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/10/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>简单的C++语言程序实例</title>
+    <url>/2024/09/22/Simple%20C++language%20program%20examples/</url>
+    <content><![CDATA[<p>​在介绍C++语言程序的结构之前，我们先来看一个简单的例子：</p>
+<h4 id="例-1-1"><a href="#例-1-1" class="headerlink" title="例 1.1"></a>例 1.1</h4><p>在屏幕上输出 <code>Hello World!</code> 。</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#include &lt;iostream&gt;</span></span><br><span class="line">using namespace std;</span><br><span class="line">int <span class="function"><span class="title">main</span></span>()</span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;Hello World!&quot;</span>&lt;&lt;<span class="string">endl;</span></span><br><span class="line"><span class="string">    return 0;</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure></div>
+<p>运行结果：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">Hello World!</span><br></pre></td></tr></table></figure></div>
+<h4 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h4><p>1.以 <code>//</code> 开头为注释行，<code>//</code> 后的内容用以对语句进行说明，输入程序时可以不输入。</p>
+<ol start="2">
+<li><code>#include &lt;bits/stdc++.h&gt;</code></li>
+</ol>
+<p>  告诉编译器的预处理器将输入输出流的标准头文件（iostream）包括在本程序中。这个头文件包括了C++中定义的基本标准输入输出程序库的声明。</p>
+<ol start="3">
+<li><code>using namespace std</code></li>
+</ol>
+<p>  使用 <code>std</code>（标准）名字空间的意思。所谓的名字空间是标准C++中的一种机制，用来控制不同类库的冲突问题。使用它可以在不同的空间内使用相同名字的类或者函数。</p>
+<ol start="4">
+<li><code>int main()</code></li>
+</ol>
+<p>  这一行为主函数（main function）的起始声明。<code>main()</code> 是所有C++程序的运行的起始点。不管它是在代码的开头，结尾还是中间，此函数中的代码总是在程序开始运行时第一个被执行。所有C++程序都必须有一个 <code>main()</code> ，<code>int main()</code> 前 <code>int</code> 在Dev C++中可省略，在 <code>TC++</code> 和 <code>VC++</code> 中最好保留。</p>
+<p>  <code>main</code> 后面跟了一对圆括号 <code>()</code> ，表示它是一个函数。C++中所有函数都跟有一对圆括号 <code>()</code> ，括号中可以有一些输入参数。注意，圆括号中即使什么都没有也不能省略。如例题中显示，主函数 <code>main()</code> 中的内存，由一对花括号 <code>&#123;&#125;</code> 括起来。</p>
+<ol start="5">
+<li><code>cout&lt;&lt;&quot;Hello World!&quot;&lt;&lt;endl</code></li>
+</ol>
+<p>  这个语句在本程序中最重要。<code>cout</code> 是一个输出语句，告诉计算机把引号之间的字符串送到标准的输出设备（屏幕）上。<code>cout</code> 的声明在头文件 <code>iostream</code> 中，所以要想使用 <code>cout</code> 必须将头文件 <code>iostream</code> 包括在程序开始处。<code>endl</code> 是C++语言的换行控制符，表示内容输出后换行显示后续的内容。</p>
+<ol start="6">
+<li><code>return 0</code></li>
+</ol>
+<p>  主函数 <code>mian()</code> 的返回语句，一般是函数的最后一条可执行语句。<code>main()</code> 函数末尾使用 <code>return</code> 语句时，数值0表示程序顺利结束，其他数表示有异常。在后面的例子中你会看到C++程序都以类似的语句结束。</p>
+<p>  在C++中，语句的分隔是以分号 <code>;</code> 为分隔符的，分行写代码只是为了更方便人阅读。</p>
+]]></content>
+      <categories>
+        <category>National Youth Informatics Olympiad Course</category>
+        <category>Introduction to C++Language</category>
+        <category>Introduction to C++Language</category>
+      </categories>
+      <tags>
+        <tag>Informatics Olympiad</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++语言的特点</title>
+    <url>/2024/09/20/Characteristics%20of%20C++Language/</url>
+    <content><![CDATA[<h4 id="1-语言简洁紧凑，使用灵活方便"><a href="#1-语言简洁紧凑，使用灵活方便" class="headerlink" title="1.语言简洁紧凑，使用灵活方便"></a>1.语言简洁紧凑，使用灵活方便</h4><p>  C++语言一共只有32个关键词和9种控制语句，程序书写自由，主要用小写字母表示。它把高级语言的基本机构和语句与低级语言的实用性结合起来，既具有高级语言的功能，又具有低级语言的很多特性。C++语言可以像汇编语言一样对位、字节和地址进行操作，而这三者是计算机最基本的工作单元。</p>
+<h4 id="2-运算符丰富"><a href="#2-运算符丰富" class="headerlink" title="2.运算符丰富"></a>2.运算符丰富</h4><p>  C++语言的运算符包含的范围很广泛，共有34个运算符。运用这些运算符可构成简洁而功能强大的表达式，表达式的类型灵活多样，可以实现在其他高级语言中难以实现的运算。</p>
+<h4 id="3-数据结构丰富"><a href="#3-数据结构丰富" class="headerlink" title="3.数据结构丰富"></a>3.数据结构丰富</h4><p>  C++语言的数据类型有：整型、实型、字符型、数组类型、指针类型、结构体类型、共用体类型等，能用来实现各种复杂的数据类型的运算，并引入了指针概念，使程序效率更高。</p>
+<h4 id="4-结构化语言"><a href="#4-结构化语言" class="headerlink" title="4.结构化语言"></a>4.结构化语言</h4><p>  结构化语言的显著特点是代码及数据的分隔化，即程序的各个部分除了必要的信息交流外彼此独立。这种结构化方式可使程序层次清晰，便于使用、维护以及调试。C++语言是以函数形式提供给用户的，这些函数可方便的调用，并具有多种循环、条件语句控制程序流向，从而使程序完全结构化。</p>
+<h4 id="5-生成的代码质量高"><a href="#5-生成的代码质量高" class="headerlink" title="5.生成的代码质量高"></a>5.生成的代码质量高</h4><p>  C++语言在代码效率方面可以和汇编语言相媲美，一般只比汇编程序生成目标代码效率低10%～20%。</p>
+<h4 id="6-可移植性强"><a href="#6-可移植性强" class="headerlink" title="6.可移植性强"></a>6.可移植性强</h4><p>  C++语言编写的程序很容易进行移植，在一个环境下运行的程序不加修改或少许修改就可以在完全不同的环境下运行。</p>
+<p>  C++语言也存在不足，例如，运算符多，使用灵活，但难记、难用，有些运算符在某种情况下会产生二义性；类型转换较为随便，容易造成数据混乱；数组的定义使用方便，但不作越界检查，容易导致数据出错。对学员要求也高，用C++语言编写程序会感到限制少、灵活性大、功能强，较其他高级语言在学习上要困难一些。</p>
+]]></content>
+      <categories>
+        <category>National Youth Informatics Olympiad Course</category>
+        <category>Introduction to C++Language</category>
+        <category>Introduction to C++Language</category>
+      </categories>
+      <tags>
+        <tag>Informatics Olympiad</tag>
+      </tags>
+  </entry>
+</search>
